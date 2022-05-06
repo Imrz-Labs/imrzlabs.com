@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from 'next/Image'
+import Image from 'next/image'
 import { motion, MotionConfig, useMotionValue } from 'framer-motion'
 
 const ContentCards = () => {
@@ -36,7 +36,7 @@ const ContentCards = () => {
             src="/nft.png"
             width={250}
             height={350}
-          />
+          /> 
           <div className="my-auto md:mt-[-40px]">
             <h2 className="text-base font-bold md:text-sm">
               NFTS: NON FUNGIBLE TOKEN
