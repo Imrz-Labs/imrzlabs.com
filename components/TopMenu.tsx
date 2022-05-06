@@ -110,7 +110,7 @@ const TopMenu = () => {
               </svg>
             </label>
             <ul
-              class="dropdown-content m-auto menu rounded-box menu-compact mt-3 w-[94vw] bg-white p-2 shadow"
+              className="dropdown-content m-auto menu rounded-box menu-compact mt-3 w-[97vw] bg-white p-2 shadow"
             >
               <li>
                 <Link href="/agency">

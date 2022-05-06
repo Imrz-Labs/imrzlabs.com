@@ -22,7 +22,7 @@ const VentureHero = () => {
           Come and build the technology of tomorrow with us.
         </h1>
 
-        <a href="http://">
+        <a href="#">
         <button type="button" className="button-pink ml-48">JOIN OUR DISCORD</button>        
         </a>
       </div>

@@ -21,8 +21,8 @@ const ContentCards = () => {
             </p>
           </div>
           <Image
-            className="col-start-1 my-auto mx-auto rounded-3xl object-cover md:object-scale-down lg:object-scale-down"
-            src="/web3.png"
+            className="col-start-1 my-auto mx-auto rounded-3xl object-cover lg:object-contain md:object-fill"
+            src="/web3.jpg"
             width={250}
             height={350}
           />
@@ -72,7 +72,7 @@ const ContentCards = () => {
           </div>
           <Image
             className="col-start-1 my-auto mx-auto rounded-3xl object-cover lg:object-contain md:object-fill"
-            src="/metaverse.jpg"
+            src="/vr.jpg"
             width={250}
             height={350}
           />
@@ -83,7 +83,7 @@ const ContentCards = () => {
         <div className="grid grid-cols-2 gap-20 md:grid-cols-1">
           <Image
             className="col-start-1 my-auto mx-auto rounded-3xl object-cover lg:object-contain md:object-fill"
-            src="/metaverse.png"
+            src="/metaverse.jpg"
             width={250}
             height={350}
           />
