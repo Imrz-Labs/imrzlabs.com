@@ -6,13 +6,26 @@
     "start": "next start"
   },
   "dependencies": {
+    "@sanity/client": "^3.3.0",
+    "@sanity/image-url": "^1.0.1",
+    "@typeform/embed-react": "^1.16.0",
+    "daisyui": "^2.14.3",
+    "emailjs": "^4.0.0",
+    "emailjs-com": "^3.2.0",
+    "framer-motion": "^6.3.1",
+    "framer-motion-3d": "^6.3.2",
+    "native-promise-only": "^0.8.1",
     "next": "latest",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "react-hook-form": "^7.30.0",
+    "react-toastify": "^9.0.1",
+    "vanta": "^0.5.22"
   },
   "devDependencies": {
     "@types/node": "17.0.4",
     "@types/react": "17.0.38",
+    "@types/three": "^0.140.0",
     "autoprefixer": "^10.4.0",
     "postcss": "^8.4.5",
     "prettier": "^2.5.1",

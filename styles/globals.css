@@ -1,3 +1,98 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer base {
+  html {
+    @apply imrz-text-black;
+    overflow-x: hidden;
+    cursor: context-menu;
+  }
+
+  body{
+    @apply imrz-bg-slate text-black
+  }
+
+  p {
+    @apply leading-8
+  }
+
+  h1 {
+    text-transform: capitalize;
+  }
+
+  h2 {
+   @apply imrz-text-blue;
+    text-transform: uppercase;
+  }
+
+  h3 {
+    margin: 0 auto;
+  }
+
+  a {
+    @apply imrz-text-black;
+    text-transform: uppercase;
+  }
+  svg, path:hover{
+    stroke: inherit;
+  }
+}
+
+@layer components {
+  .link-style-default {
+    @apply text-xs md:m-auto md:pl-3 lg:text-tiny font-semibold decoration-black decoration-double decoration-4 underline-offset-4 hover:text-black hover:underline hover:duration-100;
+  }
+  .link-style-blue {
+    @apply text-xs md:m-auto lg:text-tiny font-semibold decoration-blue-500 decoration-double decoration-4 underline-offset-4 hover:text-blue-500 hover:underline hover:duration-100;
+  }
+  .link-style-pink {
+    @apply text-xs md:m-auto md:pr-10 lg:text-tiny font-semibold decoration-pink-500 decoration-double decoration-4 underline-offset-4 hover:text-pink-500 hover:underline hover:duration-100;
+  }
+  .logo-setting {
+    @apply md:object-scale-down lg:object-scale-down ml-[-57px];
+  }
+  .button-pink {
+    @apply m-auto mt-20 flex h-[70px] w-[275px] items-center justify-center rounded-xl hover:text-white imrz-pink hover:bg-brand-gradient px-5 text-xs font-bold uppercase text-white shadow transition ease-in-out hover:duration-150;
+  }
+  .form-input {
+    @apply mr-14 rounded-lg border-0 w-full bg-white py-4 shadow outline-none focus:outline-none;
+  }
+}
+
+
+@layer utilities {
+  .bg-brand-gradient {
+    background: linear-gradient(
+      90deg,
+      rgba(0, 159, 227, 1) 0%,
+      rgba(239, 3, 129, 1) 100%
+    );
+  }
+  .imrz-black {
+    background: #2B2F4B;
+    color: #ffffff;
+  }
+  .imrz-text-black {
+    color: #2B2F4B;
+  }
+  .imrz-pink {
+    background: #EF0381;
+    color: #ffffff;
+  }
+  .imrz-text-pink {
+    color: #EF0381;
+  }
+  .imrz-blue {
+    background: #009FE3;
+    color: #ffffff;
+  }
+  .imrz-text-blue {
+    color: #009FE3;
+  }
+  .imrz-bg-slate {
+    background: #F7FAFC;
+  }
+}
+
