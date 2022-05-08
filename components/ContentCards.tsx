@@ -5,7 +5,7 @@ import { motion, MotionConfig, useMotionValue } from 'framer-motion'
 const ContentCards = () => {
   return (
     <>
-      <div className="m-auto my-5 px-10 py-10 bg-white items-center justify-center rounded-3xl shadow-2xl shadow-transparent 3xl:w-9/12 2xl:w-9/12 xl:w-11/12 lg:my-[-20px] md:my-20">
+      <div className="m-auto my-5 px-10 py-10 bg-white items-center justify-center rounded-3xl shadow-3xl shadow-transparent 3xl:w-9/12 2xl:w-9/12 xl:w-11/12 lg:my-[-20px] md:my-20">
         <div className="grid grid-cols-2 gap-20 md:flex md:grid-cols-1 md:flex-col-reverse">
           <div className="my-auto md:mt-[-40px]">
             <h2 className="text-base font-bold md:text-sm">WEB 3: 3RD Generation WWW</h2>
@@ -29,7 +29,7 @@ const ContentCards = () => {
         </div>
       </div>
 
-      <div className="m-auto my-5 px-10 py-10 bg-white items-center justify-center rounded-3xl shadow-2xl shadow-transparent 3xl:my-20 3xl:w-9/12 2xl:w-9/12 xl:w-11/12 lg:my-[-20px] md:my-20">
+      <div className="m-auto my-5 px-10 py-10 bg-white items-center justify-center rounded-3xl shadow-3xl shadow-transparent 3xl:my-20 3xl:w-9/12 2xl:w-9/12 xl:w-11/12 lg:my-[-20px] md:my-20">
         <div className="grid grid-cols-2 gap-20 md:grid-cols-1">
           <Image
             className="col-start-1 my-auto mx-auto rounded-3xl object-cover lg:object-contain md:object-fill"
@@ -54,7 +54,7 @@ const ContentCards = () => {
         </div>
       </div>
 
-      <div className="m-auto my-5 px-10 py-10 bg-white items-center justify-center rounded-3xl shadow-2xl shadow-transparent 3xl:w-9/12 2xl:w-9/12 xl:w-11/12 lg:my-[-20px] md:my-20">
+      <div className="m-auto my-5 px-10 py-10 bg-white items-center justify-center rounded-3xl shadow-3xl shadow-transparent 3xl:w-9/12 2xl:w-9/12 xl:w-11/12 lg:my-[-20px] md:my-20">
         <div className="grid grid-cols-2 gap-20 md:flex md:grid-cols-1 md:flex-col-reverse">
           <div className="my-auto md:mt-[-40px]">
             <h2 className="text-base font-bold md:text-sm">
@@ -79,7 +79,7 @@ const ContentCards = () => {
         </div>
       </div>
 
-      <div className="m-auto my-5 px-10 py-10 bg-white items-center justify-center rounded-3xl shadow-2xl shadow-transparent 3xl:my-20 3xl:w-9/12 2xl:w-9/12 xl:w-11/12 lg:my-[-20px] md:my-20">
+      <div className="m-auto my-5 px-10 py-10 bg-white items-center justify-center rounded-3xl shadow-3xl shadow-transparent 3xl:my-20 3xl:w-9/12 2xl:w-9/12 xl:w-11/12 lg:my-[-20px] md:my-20">
         <div className="grid grid-cols-2 gap-20 md:grid-cols-1">
           <Image
             className="col-start-1 my-auto mx-auto rounded-3xl object-cover lg:object-contain md:object-fill"

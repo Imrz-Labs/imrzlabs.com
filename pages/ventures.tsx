@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import React from 'react'
 import { TopMenu, FormArea, Footer } from '../components'
-import VentureCards from '../components/VentureCards'
+import VentureCard from '../components/VentureCard'
 import VentureHero from '../components/VentureHero'
 
 const ventures = () => {
@@ -30,26 +30,7 @@ const ventures = () => {
         <VentureHero />
       </div>
       <div>
-        <VentureCards />
-      </div>
-
-
-
-
-
-
-
-
-
-      <div className="mt-[-33%]">
-        <Image
-          className="relative h-screen w-screen object-contain"
-          src="/products.png"
-          alt="Imrz Labs Agency"
-          width={350}
-          height={100}
-          layout="responsive"
-        />
+        <VentureCard />
       </div>
       <div>
         <FormArea />

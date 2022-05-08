@@ -24,10 +24,10 @@ const TopMenu = () => {
         <div className="mr-[3.5rem] flex w-full justify-end 3xl:w-7/12 2xl:w-full md:mx-auto md:mt-[-70%] md:flex-col">
           <motion.nav className="my-auto mr-10 flex items-start space-x-14 lg:space-x-10 md:m-auto md:flex-col md:space-y-20 ">
             <Link href="/agency">
-              <a className="link-style-blue">Agency</a>
+              <a className="link-style-default hover:text-blue-500">Agency</a>
             </Link>
             <Link href="/ventures">
-              <a className="link-style-pink">Ventures</a>
+              <a className="link-style-default hover:text-pink-500">Ventures</a>
             </Link>
             {/**
           <Link href="/team">

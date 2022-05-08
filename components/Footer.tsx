@@ -5,7 +5,7 @@ import Image from 'next/image'
 const Footer = () => {
   return (
     <section className="imrz-black pt-4">
-      <div className="flex w-10/12 m-auto h-[85px] items-center justify-around md:flex-col imrz-black ">
+      <div className="flex w-10/12 m-auto h-auto md:pt-10 items-center justify-around md:flex-col imrz-black ">
         {/*** Logo row***/}
         <Link href="/">
           <a className="">
@@ -16,13 +16,13 @@ const Footer = () => {
         <div className="md:my-10 m-0">
           <ul className="space-x-10 w-6/12 md:w-full flex items-center hover: justify-center text-center font-semibold text-white ">
             <li>
-              <a href="#" className="link-style-blue text-tiny text-white">
+              <a href="#" className="link-style-default text-tiny text-white">
               <span className="animate-ping absolute inline-flex h-2 w-2 rounded-full bg-brand-gradient ml-[-10px] opacity-75"></span>
                 Blog
               </a>
             </li>
             <li>
-              <a href="#" className="link-style-pink text-tiny text-white">
+              <a href="#" className="link-style-defualt text-tiny text-white">
                 Careers
               </a>
             </li>
@@ -67,7 +67,7 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <div className="py-5 text-center md:mt-20 md:mb-2 imrz-black text-white">
+      <div className="text-center py-10 lg:pt-0 md:mt-20 md:mb-2 imrz-black text-white">
         © Copyright 2022. IMRZ Labs Limited. All rights reserved.
       </div>
     </section>

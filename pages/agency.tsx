@@ -3,7 +3,9 @@ import Image from 'next/image'
 import React from 'react'
 import { TopMenu, FormArea, Footer } from '../components'
 import AgencyHeroSection from '../components/AgencyHeroSection'
+import AgencyCards from '../components/AgencyCards'
 import CardServices from '../components/AgencyHeroSection'
+import AgencyServices from '../components/AgencyServices'
 
 const agency = () => {
   return (
@@ -21,38 +23,12 @@ const agency = () => {
         <link rel="icon" href="/imrzicon.gif" />
       </Head>
 
-      <div>
-        <TopMenu />
-      </div>
-      <div>
-        <AgencyHeroSection />
-      </div>
-      <div className="mt-[-33%]">
-        <Image
-          className="relative h-screen w-screen object-contain"
-          src="/imrzway.png"
-          alt="Imrz Labs Agency"
-          width={350}
-          height={100}
-          layout="responsive"
-        />
-      </div>
-      <div className="mt-[-33%]">
-        <Image
-          className="relative h-screen w-screen object-contain"
-          src="/services.png"
-          alt="Imrz Labs Agency"
-          width={350}
-          height={100}
-          layout="responsive"
-        />
-      </div>
-      <div>
-        <FormArea />
-      </div>
-      <div>
-        <Footer />
-      </div>
+      <TopMenu />
+      <AgencyHeroSection />
+      <AgencyCards />
+      <AgencyServices />
+      <FormArea />
+      <Footer />
     </>
   )
 }

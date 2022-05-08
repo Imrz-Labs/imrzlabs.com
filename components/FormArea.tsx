@@ -83,17 +83,17 @@ const FormArea = () => {
 
           {/********************************Email & Company Name Input********************************/}
 
-          <div className="imrz-text-black flex gap-5">
+          <div className="imrz-text-black flex flex-auto gap-5">
             {/**Email**/}
             <div className="mb-3 pt-0">
               <p className="text-white">Email</p>
-              <input type="email" name="email" className="form-input" required />
+              <input type="email" name="email" className="form-input w-auto" required />
             </div>
 
             {/**Company Name**/}
             <div className="mb-3 ml-auto pt-0">
               <p className="text-white">Company Name</p>
-              <input type="text" name="company" className="form-input" required />
+              <input type="text" name="company" className="form-input w-auto" required />
             </div>
           </div>
 

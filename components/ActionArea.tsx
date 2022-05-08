@@ -11,13 +11,13 @@ const ActionArea = () => {
           and building products in our venture factory.
         </h3>
         <div className="mx-auto pb-28 justify-center md:w-10/12 lg:w-11/12 items-center content-center flex flex-auto gap-32 md:gap-0">
-          <Link href="/">
+          <Link href="/agency">
             <a>
               <Image src="/agency.svg" alt="Imrz Labs Agency" width={450} height={85} />
             </a>
           </Link>
 
-          <Link href="/">
+          <Link href="/ventures">
             <a>
               <Image src="/ventures.svg" alt="Imrz Labs Ventures" width={450} height={85} />
             </a>
