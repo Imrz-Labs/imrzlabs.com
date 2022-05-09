@@ -48,7 +48,7 @@
     @apply md:object-scale-down lg:object-scale-down;
   }
   .button-pink {
-    @apply m-auto mt-14 flex h-[70px] w-[275px] items-center justify-center rounded-xl hover:text-white imrz-pink hover:bg-brand-gradient px-5 text-xs font-bold uppercase text-white shadow transition ease-in-out hover:duration-150;
+    @apply m-auto mt-14 flex h-[65px] w-[220px] items-center justify-center rounded-xl hover:text-white imrz-pink hover:bg-brand-gradient px-5 text-xs font-bold uppercase text-white shadow transition ease-in-out hover:duration-150;
   }
   .form-input {
     @apply rounded-lg border-0 w-full bg-white py-4 shadow outline-none focus:outline-none;

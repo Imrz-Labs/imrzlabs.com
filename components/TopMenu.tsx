@@ -40,7 +40,7 @@ const TopMenu = () => {
           <a href="#contact">
             <button
               type="button"
-              className="hover:bg-brand-gradient imrz-blue h-[50px] w-[150px] rounded-md px-5 text-xs font-semibold uppercase text-white shadow transition ease-in-out hover:duration-150 lg:h-[45px] lg:w-[100px] lg:text-tiny md:m-auto md:mb-5 md:ml-[80%] sm:ml-[76%]"
+              className="hover:bg-brand-gradient imrz-blue h-[50px] w-[150px] rounded-md px-5 text-xs font-semibold uppercase text-white shadow lg:h-[45px] lg:w-[100px] lg:text-tiny md:m-auto md:mb-5 md:ml-[80%] sm:ml-[76%]"
             >
               Contact
             </button>

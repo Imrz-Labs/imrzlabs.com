@@ -67,7 +67,7 @@ const FormArea = () => {
           
         >
           {/********************************Name Input********************************/}
-          <div className="imrz-text-black flex gap-5">
+          <div className="imrz-text-black grid grid-cols-2 gap-5">
             {/**First Name**/}
             <div className="mb-3 pt-0">
               <p className="text-white">First Name</p>
@@ -75,7 +75,7 @@ const FormArea = () => {
             </div>
 
             {/**Last Name**/}
-            <div className="mb-3 ml-auto pt-0">
+            <div className="mb-3 pt-0">
               <p className="text-white">Last Name</p>
               <input type="text" name="surname" className="form-input" required />
             </div>
@@ -83,27 +83,27 @@ const FormArea = () => {
 
           {/********************************Email & Company Name Input********************************/}
 
-          <div className="imrz-text-black flex flex-auto gap-5">
+          <div className="imrz-text-black grid grid-cols-2 gap-5">
             {/**Email**/}
             <div className="mb-3 pt-0">
               <p className="text-white">Email</p>
-              <input type="email" name="email" className="form-input w-auto" required />
+              <input type="email" name="email" className="form-input" required />
             </div>
 
             {/**Company Name**/}
-            <div className="mb-3 ml-auto pt-0">
+            <div className="mb-3 pt-0">
               <p className="text-white">Company Name</p>
-              <input type="text" name="company" className="form-input w-auto" required />
+              <input type="text" name="company" className="form-input" required />
             </div>
           </div>
 
           {/********************************Services Dropdown********************************/}
 
-          <div className="imrz-text-black flex gap-5">
+          <div className="imrz-text-black grid grid-cols-2 gap-5">
             {/**Interested Services**/}
             <div className="mb-3 pt-0">
               <p className="text-white">Interested Services:</p>
-              <select required name="services" className="form-input lg:max-w-lg 3xl:mr-[320px] lg:mr-auto sm:mr-48">
+              <select required name="services" className="form-input">
                 <option disabled selected>Select Service</option>
                 <option value="consultancy">Consultancy</option>
                 <option value="delivery">Delivery</option>
@@ -112,9 +112,9 @@ const FormArea = () => {
             </div>
 
             {/**Budget**/}
-            <div className="mb-3 ml-auto pt-0">
+            <div className="mb-3 pt-0">
               <p className="text-white">Budget</p>
-              <select required name="budget" className="form-input xl:max-w-lg  3xl:mr-[300px] xl:mr-auto md:mr-44 sm:mr-20">
+              <select required name="budget" className="form-input">
                 <option disabled selected>Select budget range</option>
                 <option value="10-25K">10-25K</option>
                 <option value="20-50K">20-50K</option>
