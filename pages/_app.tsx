@@ -1,6 +1,5 @@
 import '../styles/globals.css'
 import type { AppProps } from 'next/app'
-import { motion, AnimatePresence } from 'framer-motion'
 import { useEffect } from 'react'
 
 function ImrzApp({ Component, pageProps, router }: AppProps) {
@@ -20,21 +19,7 @@ function ImrzApp({ Component, pageProps, router }: AppProps) {
   }, []);
   
   return (
-      <AnimatePresence>
-        <motion.div
-          key={router.route}
-          initial="pageInitial"
-          animate="pageAnimate"
-          exit="pageExit"
-          variants={{
-            PageInitial: { width: 0 },
-            PageAnimate: { width: '100vw' },
-            PageExit: { transition: { duration: 0.1 } },
-          }}
-        >
-          <Component {...pageProps} />
-        </motion.div>
-      </AnimatePresence>
+      <Component {...pageProps} />
   )
 }
 

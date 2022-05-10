@@ -12,8 +12,6 @@
     "daisyui": "^2.14.3",
     "emailjs": "^4.0.0",
     "emailjs-com": "^3.2.0",
-    "framer-motion": "^6.3.1",
-    "framer-motion-3d": "^6.3.2",
     "native-promise-only": "^0.8.1",
     "next": "latest",
     "react": "^17.0.2",

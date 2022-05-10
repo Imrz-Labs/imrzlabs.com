@@ -1,6 +1,5 @@
 import React from 'react'
 import Link from 'next/link'
-import { motion, AnimatePresence } from 'framer-motion'
 import Image from 'next/image'
 
 const TopMenu = () => {
@@ -22,7 +21,7 @@ const TopMenu = () => {
 
         {/***Nav Items - Links & CTA ***/}
         <div className="mr-[3.5rem] flex w-full justify-end 3xl:w-7/12 2xl:w-full md:mx-auto md:mt-[-70%] md:flex-col">
-          <motion.nav className="my-auto mr-10 flex items-start space-x-14 lg:space-x-10 md:m-auto md:flex-col md:space-y-20 ">
+          <nav className="my-auto mr-10 flex items-start space-x-14 lg:space-x-10 md:m-auto md:flex-col md:space-y-20 ">
             <Link href="/agency">
               <a className="link-style-default hover:text-blue-500">Agency</a>
             </Link>
@@ -34,7 +33,7 @@ const TopMenu = () => {
             <a className="link-style-default">Team</a>
           </Link>
            */}
-          </motion.nav>
+          </nav>
 
           {/***Nav CTA ***/}
           <a href="#contact">

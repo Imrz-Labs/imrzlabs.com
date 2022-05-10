@@ -1,6 +1,5 @@
 import React from 'react'
 import Image from 'next/image'
-import { motion, MotionConfig, useMotionValue } from 'framer-motion'
 
 const ContentCards = () => {
   return (
