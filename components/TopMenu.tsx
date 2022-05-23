@@ -131,6 +131,8 @@ const TopMenu = () => {
             </ul>
           </div>
         </div>
+
+        {/********************************mobiile navbar ********************************/}
         <div className="navbar-center">
           {/*** Logo ***/}
           <Link href="/">
@@ -163,7 +165,7 @@ const TopMenu = () => {
               </svg>
             </button>
           </a>
-        </div>
+            </div>
       </div>
     </>
   )
