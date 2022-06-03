@@ -99,8 +99,9 @@ const FormArea = () => {
 
           {/********************************Services Dropdown********************************/}
 
+          {/****
           <div className="imrz-text-black grid grid-cols-2 gap-5">
-            {/**Interested Services**/}
+            {/**Interested Services
             <div className="mb-3 pt-0">
               <p className="text-white">Interested Services:</p>
               <select required name="services" className="form-input">
@@ -111,7 +112,7 @@ const FormArea = () => {
               </select>
             </div>
 
-            {/**Budget**/}
+            {/**Budget*
             <div className="mb-3 pt-0">
               <p className="text-white">Budget</p>
               <select required name="budget" className="form-input">

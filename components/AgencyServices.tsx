@@ -5,7 +5,7 @@ const AgencyServices = () => {
     <>
       {/********************************START AGENCY SERVICES WRAPPER ********************************/}
 
-      <div className="imrz-black h-auto text-white py-3 md:pb-28">
+      <div id="services" className="imrz-black h-auto py-3 text-white md:pb-28">
         {/********************************HEADING ********************************/}
 
         <div className="my-20">
@@ -15,15 +15,15 @@ const AgencyServices = () => {
 
         {/********************************SERVICES GRID ********************************/}
 
-        <div className="grid grid-cols-3 m-auto w-10/12 xl:w-11/12 md:grid-cols-1 md:gap-12">
+        <div className="m-auto grid w-10/12 grid-cols-3 xl:w-11/12 md:grid-cols-1 md:gap-12">
           {/*****Strategy*****/}
           <div className="agency-services">
             <img src="/strategy.svg" className="agency-icons" />
             <div className="items-center text-center">
               <h3 className="imrz-card-heading">Strategy</h3>
               <p className="imrz-card-paragraph 3xl:w-10/12">
-                Identifying opportunities to utilise blockchain and extended
-                reality solutions for your business.
+                Identifying research and insight-based opportunities to use
+                blockchain and extended reality solutions for your business.
               </p>
             </div>
           </div>
@@ -34,8 +34,8 @@ const AgencyServices = () => {
             <div className="items-center text-center">
               <h3 className="imrz-card-heading">Workshops</h3>
               <p className="imrz-card-paragraph 3xl:w-10/12">
-                Educating you and your team around the art of the possible, best
-                case examples and what your competitors are doing in the space.
+                Educating your business around the art of possibility, with best
+                practice examples, competitor insight and blue-sky thinking.
               </p>
             </div>
           </div>
@@ -46,8 +46,8 @@ const AgencyServices = () => {
             <div className="items-center text-center">
               <h3 className="imrz-card-heading">Project Delivery</h3>
               <p className="imrz-card-paragraph 3xl:w-10/12">
-                Our network of Web3 developers can be deployed and managed to
-                deliver projects for your organisation.
+                Deploy our team of Web 3 developers to activate a project for
+                your organisation – from start to finish.
               </p>
             </div>
           </div>
