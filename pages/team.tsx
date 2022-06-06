@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import React from 'react'
 import { TopMenu, FormArea, Footer } from '../components'
-import VentureHero from '../components/VentureHero'
+import VentureHero from '../components/ProductHero'
 
 const team = () => {
   return (
