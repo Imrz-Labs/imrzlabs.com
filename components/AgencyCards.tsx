@@ -1,14 +1,11 @@
 import React from 'react'
 
-
 const AgencyCards = () => {
   return (
     <>
       <div className="bg-slate m-auto h-auto w-screen">
         <div className="my-20">
-          <h3 className="imrz-heading-3">
-            WHO WE ARE
-          </h3>
+          <h3 className="imrz-heading-3">WHO WE ARE</h3>
           <h2 className="imrz-heading-2">
             The <span className="uppercase">IMRZ</span> Way
           </h2>
@@ -18,10 +15,10 @@ const AgencyCards = () => {
           <div className="imrz-card">
             <img src="/innovation.png" className="imrz-card-img" />
             <div className="items-center text-center">
-              <h3 className="imrz-card-heading">Innovation</h3>
+              <h3 className="imrz-card-heading">Innovative</h3>
               <p className="imrz-card-paragraph">
-                we stay up to date with the latest developments in tech so that
-                we can help you implement them
+                We stay up-to-date with the latest tech developments to help you
+                implement quickly.
               </p>
             </div>
           </div>
@@ -31,8 +28,8 @@ const AgencyCards = () => {
             <div className="items-center text-center">
               <h3 className="imrz-card-heading">Trustworthy</h3>
               <p className="imrz-card-paragraph">
-                We do what we say we’re going to do, backing this up with over
-                30 years experience delivering solutions for happy clients.
+                We are true to our word, backed by decades of experience
+                delivering solutions for happy clients.
               </p>
             </div>
           </div>
@@ -40,10 +37,10 @@ const AgencyCards = () => {
           <div className="imrz-card">
             <img src="/collaboration.png" className="imrz-card-img" />
             <div className="items-center text-center">
-              <h3 className="imrz-card-heading">Collaboration</h3>
+              <h3 className="imrz-card-heading">Collaborative</h3>
               <p className="imrz-card-paragraph">
-                The IMRZ eco-system brings together knowledge, technical ability
-                & experience from a wealth of partners and collaborators.
+                The IMRZ ecosystem combines knowledge, technical know-how and
+                years of experience from a wealth of partners and collaborators.
               </p>
             </div>
           </div>
@@ -51,11 +48,11 @@ const AgencyCards = () => {
           <div className="imrz-card">
             <img src="/agility.png" className="imrz-card-img" />
             <div className="items-center text-center">
-              <h3 className="imrz-card-heading">Agility</h3>
+              <h3 className="imrz-card-heading">Agile</h3>
               <p className="imrz-card-paragraph">
-                We realise that plans and priorities change – Web3 allows us to
-                run a flexible cost base that shapes itself around your
-                requirements.
+                We recognise that plans and priorities can change – Web 2 allows
+                us to run a flexible cost base that shapes itself around your
+                requirements
               </p>
             </div>
           </div>

@@ -1,16 +1,15 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import React from 'react'
 import { TopMenu, FormArea, Footer } from '../components'
-import VentureCard from '../components/VentureCard'
-import VentureHero from '../components/VentureHero'
+import ProductCard from '../components/ProductCard'
+import ProductHero from '../components/ProductHero'
 
 const ventures = () => {
   return (
     <>
       <Head>
         <title>
-          Imrz Ventures | Reality is your canvas!
+          Imrz Products | Reality is your canvas!
         </title>
         <meta
           name="description"
@@ -18,7 +17,7 @@ const ventures = () => {
         />
         <meta
           name="keywords"
-          content="Immersive company, immersive agency, imrz, imrz labs, imrz agency, imrz ventures, 3D, metaverse, oasis, ar, vr, xr, mr, tokenisation, mining, NFTs, DAOs, Defi, AI, Airdrops, Decentralization, Smart Contracts, Blockchain, Crypto, Web 3, Computer Vision, DApps, Phygital, Digital Twin, coins, Staking"
+          content="Immersive company, immersive agency, imrz, imrz labs, imrz agency, imrz products, imrz ventures, 3D, metaverse, oasis, ar, vr, xr, mr, tokenisation, mining, NFTs, DAOs, Defi, AI, Airdrops, Decentralization, Smart Contracts, Blockchain, Crypto, Web 3, Computer Vision, DApps, Phygital, Digital Twin, coins, Staking"
         />
         <link rel="icon" href="/imrzicon.gif" />
       </Head>
@@ -27,10 +26,10 @@ const ventures = () => {
         <TopMenu />
       </div>
       <div>
-        <VentureHero />
+        <ProductHero />
       </div>
       <div>
-        <VentureCard />
+        <ProductCard />
       </div>
       <div>
         <FormArea />

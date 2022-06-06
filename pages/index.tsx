@@ -2,6 +2,7 @@ import React from 'react'
 import Head from 'next/head'
 import { sanity, urlFor } from '../lib/sanity'
 import {ActionArea, Footer, FormArea, HeroSection, Services, TopMenu} from '../components'
+import ProjectTypes from '../components/ProjectTypes'
 
 const index = () => {
   return (
@@ -16,6 +17,7 @@ const index = () => {
       <div><TopMenu /></div>
       <div><HeroSection /></div>
       <div><Services /></div>
+      <div><ProjectTypes /></div>
       <div><ActionArea /></div>
       <div><FormArea /></div>
       <div><Footer /></div>

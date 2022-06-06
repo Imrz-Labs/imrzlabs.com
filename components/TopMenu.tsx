@@ -25,8 +25,8 @@ const TopMenu = () => {
             <Link href="/agency">
               <a className="link-style-default hover:text-blue-500">Agency</a>
             </Link>
-            <Link href="/ventures">
-              <a className="link-style-default hover:text-pink-500">Ventures</a>
+            <Link href="/products">
+              <a className="link-style-default hover:text-pink-500">Products</a>
             </Link>
             {/**
           <Link href="/team">
@@ -117,8 +117,8 @@ const TopMenu = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/ventures">
-                  <a className="">Ventures</a>
+                <Link href="/products">
+                  <a className="">Products</a>
                 </Link>
               </li>
               {/**

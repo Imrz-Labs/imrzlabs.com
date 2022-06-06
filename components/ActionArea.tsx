@@ -5,21 +5,32 @@ import Link from 'next/link'
 const ActionArea = () => {
   return (
     <>
-      <section className="2xl:mt-24 pw-screen imrz-black">
+      <section className="pw-screen imrz-black 2xl:mt-24">
         <h3 className="my-20 w-7/12 pt-20 text-center text-base font-bold text-white xl:text-sm lg:text-sm md:w-11/12 md:text-xs sm:text-tiny">
-          We drive value through delivering services in our agency collective,
-          and building products in our venture factory.
+          Use our experience, insight and agility to elevate your business and
+          deliver future focused solutions.
         </h3>
-        <div className="mx-auto pb-28 justify-center md:w-10/12 lg:w-11/12 items-center content-center flex flex-auto gap-32 md:gap-0">
+        <div className="mx-auto flex flex-auto content-center items-center justify-center gap-32 pb-28 lg:w-11/12 md:w-10/12 md:gap-0">
           <Link href="/agency">
             <a>
-              <Image src="/agency.svg" alt="Imrz Labs Agency" width={450} height={85} />
+              <Image
+                src="/agency.svg"
+                alt="Imrz Labs Agency"
+                width={450}
+                height={85}
+              />
             </a>
           </Link>
 
-          <Link href="/ventures">
+          <Link href="/products">
             <a>
-              <Image src="/ventures.svg" alt="Imrz Labs Ventures" width={450} height={85} />
+              <Image
+                src="/products.svg"
+                alt="Imrz Labs Ventures"
+                width={450}
+                height={120}
+                className="mb-3 sm:mb-1"
+              />
             </a>
           </Link>
         </div>

@@ -51,6 +51,9 @@ module.exports = {
       borderRadius: {
         '4xl': '2rem',
       },
+      dropShadow: {
+        'base': '0 10px 40px rgb(30, 35, 70, 0.05)',
+      }
     },
 
     screens: {

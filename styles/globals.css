@@ -33,8 +33,8 @@
 
   a {
     @apply imrz-text-black;
-    text-transform: uppercase;
   }
+
   svg, path:hover{
     stroke: inherit;
   }
@@ -57,7 +57,7 @@
     @apply m-auto grid w-10/12 grid-cols-4 items-center justify-center pb-40 2xl:w-11/12 2xl:gap-3 xl:flex lg:grid lg:grid-cols-2 sm:flex sm:flex-wrap;
   }
   .imrz-card {
-    @apply flex w-[300px] h-[450px] lg:w-auto lg:h-[500px] md:w-auto sm:w-11/12 sm:h-auto sm:pb-10 flex-col rounded-3xl bg-white	shadow-[#1d2445];
+    @apply flex drop-shadow-base w-[300px] h-[450px] lg:w-auto lg:h-[500px] md:w-auto sm:w-11/12 sm:h-auto sm:pb-10 flex-col rounded-3xl bg-white	shadow-[#1d2445];
   }
   .imrz-card-img {
     @apply px-3 pt-3 rounded-2xl lg:w-full;
@@ -69,19 +69,19 @@
     @apply m-auto w-11/12 text-center leading-snug;
   }
   .imrz-heading-2 {
-    @apply m-auto mt-3 w-full text-center text-base font-extrabold capitalize text-black;
+    @apply m-auto leading-[50px] md:px-6 xl:w-9/12 3xl:w-9/12 xl:text-base lg:w-10/12 md:w-10/12 lg:text-sm  sm:w-full sm:text-sm mt-3 text-center text-base font-extrabold capitalize text-black ;
   }
   .imrz-heading-3 {
-    @apply w-full text-center text-xs font-bold text-blue-500 xl:text-sm lg:text-sm md:w-11/12 md:text-xs sm:text-tiny;
+    @apply w-full leading-[50px] xl:text-sm lg:text-sm md:text-xs sm:text-tiny text-center text-xs font-bold text-blue-500 md:w-11/12;
   }
   .agency-services {
     @apply m-auto w-auto h-[450px] md:h-auto sm:w-full sm:h-auto ;
   }
   .agency-icons {
-    @apply h-[100px] w-[100px] mx-auto rounded-full bg-white shadow-2xl px-3 py-3;
+    @apply h-[100px] w-[100px] mx-auto rounded-full bg-white shadow-lg px-3 py-3;
   }
   .imrz-h1-hero {
-    @apply flex w-9/12 m-auto lg:text-center text-base lg:m-auto sm:text-sm font-bold lg:w-10/12 md:w-11/12 ;
+    @apply flex w-9/12 m-auto lg:text-center text-base lg:m-auto sm:text-sm font-bold lg:w-10/12 md:w-11/12 lg:p-0 3xl:pr-28 ;
   }
   .imrz-b-hero {
     @apply flex justify-start items-start w-9/12 m-auto lg:w-full lg:justify-center lg:items-center ;
@@ -98,11 +98,11 @@
     );
   }
   .imrz-black {
-    background: #2B2F4B;
+    background: #1D2445;
     color: #ffffff;
   }
   .imrz-text-black {
-    color: #2B2F4B;
+    color: #1D2445;
   }
   .imrz-pink {
     background: #EF0381;

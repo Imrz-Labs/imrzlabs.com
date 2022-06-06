@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 
-const VentureHero = () => {
+const ProductHero = () => {
   return (
     <>
       <div className="bg-brand-gradient h-screen w-screen">
@@ -9,24 +9,25 @@ const VentureHero = () => {
           <div className="m-auto mb-14 w-9/12">
             <img
               className="flex h-auto w-auto lg:hidden"
-              src="/imrzventures.svg"
-              alt="Imrz Ventures"
+              src="/imrzproducts.svg"
+              alt="Imrz Products"
             />
             <img
               className="m-auto hidden lg:flex"
-              src="/imrzventures-mid.svg"
-              alt="Imrz Ventures"
+              src="/imrzproducts-mid.svg"
+              alt="Imrz Products"
             />
           </div>
 
           <h1 className="imrz-h1-hero">
-            Come and build the technology of tomorrow with us.
+            We’ve developed a number of Web3 focused products that demonstrate
+            our innovation capability in the space.
           </h1>
 
           <div className="imrz-b-hero">
             <a href="#">
               <button type="button" className="button-pink">
-                Join Our Discord
+                Join Discord
               </button>
             </a>
           </div>
@@ -36,4 +37,4 @@ const VentureHero = () => {
   )
 }
 
-export default VentureHero
+export default ProductHero
