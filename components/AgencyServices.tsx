@@ -5,7 +5,7 @@ const AgencyServices = () => {
     <>
       {/********************************START AGENCY SERVICES WRAPPER ********************************/}
 
-      <div className="imrz-black h-auto py-3 text-white md:pb-28">
+      <div className="imrz-black h-auto pt-3 4xl:mb-[-90px] text-white  md:pb-48">
         {/********************************HEADING ********************************/}
 
         <div className="my-20">

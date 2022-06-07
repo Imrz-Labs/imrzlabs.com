@@ -3,8 +3,8 @@ import React from 'react'
 const AgencyHeroSection = () => {
   return (
     <>
-      <div className="bg-brand-gradient h-screen w-screen">
-        <div className="absolute top-[30%] w-full text-white">
+      <div className="h-[90vh] md:h-screen bg-brand-gradient w-screen">
+        <div className="absolute top-[25%] w-full text-white">
           <div className="m-auto mb-14 w-9/12">
             <img
               className="flex h-auto w-auto lg:hidden"

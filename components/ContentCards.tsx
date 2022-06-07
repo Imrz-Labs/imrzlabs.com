@@ -8,8 +8,8 @@ const ContentCards = () => {
         <div className="grid grid-cols-2 gap-20 md:flex md:grid-cols-1 md:flex-col-reverse">
           <div className="my-auto md:mt-[-40px]">
             <h2 className="text-base font-bold md:text-sm">
-              WEB 3: 3<span className="text-tiny tracking-wide">RD</span>{' '}
-              Generation WWW
+              WEB 3: 3RD
+              Generation Of The Web
             </h2>
             <p className="py-5 font-semibold ">
               Platforms and apps built on the blockchain with benefits shared

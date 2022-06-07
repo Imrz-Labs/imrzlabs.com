@@ -50,9 +50,8 @@ const AgencyCards = () => {
             <div className="items-center text-center">
               <h3 className="imrz-card-heading">Agile</h3>
               <p className="imrz-card-paragraph">
-                We recognise that plans and priorities can change – Web 2 allows
-                us to run a flexible cost base that shapes itself around your
-                requirements
+                We recognise that plans and priorities can change – we run a scalable and flexible cost base that shapes itself around your
+                requirements.
               </p>
             </div>
           </div>

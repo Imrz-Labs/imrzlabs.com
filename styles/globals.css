@@ -54,7 +54,7 @@
     @apply rounded-lg border-0 w-full bg-white py-4 shadow outline-none focus:outline-none;
   }
   .imrz-card-wrapper {
-    @apply m-auto grid w-10/12 grid-cols-4 items-center justify-center pb-40 2xl:w-11/12 2xl:gap-3 xl:flex lg:grid lg:grid-cols-2 sm:flex sm:flex-wrap;
+    @apply m-auto grid w-10/12 grid-cols-4 items-center 4xl:pb-20 justify-center pb-40 2xl:w-11/12 2xl:gap-3 4xl:gap-10 4xl:flex xl:flex lg:grid lg:grid-cols-2 sm:flex sm:flex-wrap;
   }
   .imrz-card {
     @apply flex drop-shadow-base w-[300px] h-[450px] lg:w-auto lg:h-[500px] md:w-auto sm:w-11/12 sm:h-auto sm:pb-10 flex-col rounded-3xl bg-white	shadow-[#1d2445];

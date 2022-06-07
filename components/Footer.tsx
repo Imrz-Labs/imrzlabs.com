@@ -23,7 +23,6 @@ const Footer = () => {
           <ul className="hover: flex w-6/12 items-center justify-center space-x-10 text-center font-semibold text-white md:w-full ">
             <li>
               <a href="https://www.imrz.blog" className="link-style-default text-tiny text-white">
-                <span className="bg-brand-gradient absolute ml-[-10px] inline-flex h-2 w-2 animate-ping rounded-full opacity-75"></span>
                 Blog
               </a>
             </li>

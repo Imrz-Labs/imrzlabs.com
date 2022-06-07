@@ -10,7 +10,7 @@ const ActionArea = () => {
           Use our experience, insight and agility to elevate your business and
           deliver future focused solutions.
         </h3>
-        <div className="mx-auto flex flex-auto content-center items-center justify-center gap-32 pb-28 lg:w-11/12 md:w-10/12 md:gap-0">
+        <div className="mx-auto flex flex-auto sm:grid sm:gap-y-20 content-center items-center justify-center gap-32 pb-28 lg:w-11/12 md:w-10/12 md:gap-0">
           <Link href="/agency">
             <a>
               <Image

@@ -1,14 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="601" height="171.93" viewBox="0 0 601 171.93">
-  <g id="products" transform="translate(-1027 -4496)">
+<svg xmlns="http://www.w3.org/2000/svg" width="603" height="174.001" viewBox="0 0 603 174.001">
+  <g id="products" transform="translate(-1027 -4493.928)">
     <g id="products-2" data-name="products">
       <g id="products-3" data-name="products">
-        <text id="PRODUCTS-4" data-name="PRODUCTS" transform="translate(1027 4496)" fill="#fff" font-size="110" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="0" y="116">PRODUCTS</tspan></text>
-        <text id="P" transform="translate(1030 4612)" fill="#d8006b" font-size="110" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="0" y="0">P</tspan></text>
-        <path id="P_-_Outline" data-name="P - Outline" d="M5.82-78.22H37.29a39.169,39.169,0,0,1,12.742,1.943,25.439,25.439,0,0,1,9.228,5.436c4.848,4.552,7.41,10.942,7.41,18.48a26.534,26.534,0,0,1-1.733,9.593,23.161,23.161,0,0,1-5.372,8.224,25.408,25.408,0,0,1-9.19,5.706A38.032,38.032,0,0,1,37.29-26.72H26.63V1H5.82Zm31.47,49.5c20.209,0,27.38-12.735,27.38-23.64,0-14.94-10.236-23.86-27.38-23.86H7.82V-1H24.63V-28.72ZM24.63-63.04H35.86c3.88,0,6.852.974,8.836,2.894,1.881,1.821,2.834,4.441,2.834,7.786S46.576-46.4,44.7-44.574c-1.983,1.92-4.956,2.894-8.836,2.894H24.63ZM35.86-43.68c3.342,0,5.847-.784,7.444-2.331,1.477-1.43,2.226-3.566,2.226-6.349s-.749-4.919-2.226-6.349c-1.6-1.547-4.1-2.331-7.444-2.331H26.63v17.36Z" transform="translate(1030 4612)" fill="#2b2f4b"/>
+        <text id="_RODUCTS" data-name="   RODUCTS" transform="translate(1027 4612)" fill="#fff" font-size="110" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="0" y="0" xml:space="preserve">   RODUCTS</tspan></text>
       </g>
-      <g id="Rectangle_689" data-name="Rectangle 689" transform="translate(1035 4534)" fill="#0090df" stroke="#2b2f4b" stroke-width="1">
-        <rect width="18" height="79" stroke="none"/>
-        <rect x="0.5" y="0.5" width="17" height="78" fill="none"/>
+      <g id="P" transform="translate(0 -1.65)">
+        <rect id="Rectangle_690" data-name="Rectangle 690" width="20" height="21" transform="translate(1054.423 4548.678)" fill="#d8006b"/>
+        <text id="P-2" data-name="P" transform="translate(1027.423 4611.578)" fill="#d8006b" font-size="110" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="0" y="0">P</tspan></text>
+        <rect id="Rectangle_689" data-name="Rectangle 689" width="21" height="79" transform="translate(1034 4534.338)" fill="#0090df"/>
       </g>
     </g>
     <g id="brand" transform="translate(1093.406 4541.781)">

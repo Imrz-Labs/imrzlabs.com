@@ -2,8 +2,8 @@ import React from 'react'
 
 const ProjectTypes = () => {
   return (
-    <div className="mb-[-100px] bg-white pt-3 pb-10">
-      <div className="my-20">
+    <div className="mb-[-230px] md:pb-40 bg-white pt-3">
+      <div className="my-10 mb-20">
         <h3 className="imrz-heading-3">TYPE OF PROJECTS</h3>
         <h2 className="imrz-heading-2">
           We're focused on delivering digital solutions for companies in the
@@ -12,7 +12,7 @@ const ProjectTypes = () => {
       </div>
 
       {/********************************SERVICES GRID 3 ********************************/}
-      <div className="m-auto grid w-10/12 grid-cols-3 xl:w-11/12 md:grid-cols-1 md:gap-12">
+      <div className="m-auto grid w-10/12 md:mb-auto mb-[-100px] grid-cols-3 xl:w-11/12 md:grid-cols-1 md:gap-12">
         {/*****Strategy*****/}
         <div className="agency-services">
           <img src="/dapp.svg" className="agency-icons" />
@@ -51,7 +51,7 @@ const ProjectTypes = () => {
       </div>
 
       {/********************************SERVICES GRID 3 ********************************/}
-      <div className="m-auto grid w-10/12 grid-cols-3 xl:w-11/12 md:grid-cols-1 md:gap-12">
+      <div className="m-auto grid w-10/12 md:mt-10 md:mb-[50px] grid-cols-3 xl:w-11/12 md:grid-cols-1 md:gap-12">
         {/*****Strategy*****/}
         <div className="agency-services">
           <img src="/token.svg" className="agency-icons" />

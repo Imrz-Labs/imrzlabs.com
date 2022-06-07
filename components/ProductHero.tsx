@@ -4,11 +4,11 @@ import Image from 'next/image'
 const ProductHero = () => {
   return (
     <>
-      <div className="bg-brand-gradient h-screen w-screen">
-        <div className="absolute top-[30%] w-full text-white">
+      <div className="h-[90vh] md:h-screen bg-brand-gradient w-screen">
+        <div className="absolute top-[20%] w-full text-white">
           <div className="m-auto mb-14 w-9/12">
             <img
-              className="flex h-auto w-auto lg:hidden"
+              className="flex h-[115px] w-auto lg:hidden"
               src="/imrzproducts.svg"
               alt="Imrz Products"
             />
@@ -25,9 +25,9 @@ const ProductHero = () => {
           </h1>
 
           <div className="imrz-b-hero">
-            <a href="#">
+            <a href="#contact">
               <button type="button" className="button-pink">
-                Join Discord
+                Build With US
               </button>
             </a>
           </div>
