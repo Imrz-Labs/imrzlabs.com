@@ -56,7 +56,8 @@ const Footer = () => {
             <li>
               <a href="https://www.twitter.com/imrzlabs">
                 <Image
-                  src="/twitter.svg"
+                  className='object-contain'
+                  src="/twitter.png"
                   alt="Imrz Labs"
                   width={20}
                   height={20}

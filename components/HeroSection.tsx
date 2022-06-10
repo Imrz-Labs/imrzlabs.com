@@ -4,7 +4,7 @@ const HeroSection = () => {
   
   return (
     <>
-      <div  className="h-[90vh] 4xl:h-sc w-screen bg-black bg-[url('/hero.png')] bg-fixed bg-center bg-no-repeat">
+      <div  className="h-[90vh] sm:h-[80vh] 4xl:h-sc w-screen bg-black bg-[url('/hero.png')] bg-fixed bg-center bg-no-repeat">
         <div className="bg-brand-gradient inset-x-0 top-0 flex h-screen opacity-90 mix-blend-hue"></div>
       </div>
       <div className="absolute 4xl:top-[25%] top-[30%] text-white">

@@ -9,7 +9,7 @@ const ProductCard = () => {
           <h2 className="imrz-heading-2">Products</h2>
         </div>
 
-        <div className="imrz-card-wrapper sm:ml-9">
+        <div className="imrz-card-wrapper">
             <div className="imrz-card h-[350px] lg:h-auto lg:pb-10">
               <img
                 src="/imrzcommerce-banner.png"
