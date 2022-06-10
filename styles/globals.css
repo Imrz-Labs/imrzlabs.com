@@ -42,7 +42,7 @@
 
 @layer components {
   .link-style-default {
-    @apply text-xs text-center w-auto md:m-auto lg:text-tiny font-bold;
+    @apply text-xs text-center w-full lg:text-tiny font-bold;
   }
   .logo-setting {
     @apply md:object-scale-down lg:object-scale-down;

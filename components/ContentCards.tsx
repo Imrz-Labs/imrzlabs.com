@@ -35,7 +35,7 @@ const ContentCards = () => {
         <div className="grid grid-cols-2 gap-20 md:grid-cols-1">
           <Image
             className="col-start-1 my-auto mx-auto rounded-3xl object-cover"
-            src="/nft.png"
+            src="/nftii.jpg"
             width={250}
             height={350}
           />
@@ -74,7 +74,7 @@ const ContentCards = () => {
           </div>
           <Image
             className="col-start-1 my-auto mx-auto rounded-3xl object-cover"
-            src="/vr.jpg"
+            src="/xrverse.jpg"
             width={250}
             height={350}
           />
@@ -85,7 +85,7 @@ const ContentCards = () => {
         <div className="grid grid-cols-2 gap-20 md:grid-cols-1">
           <Image
             className="col-start-1 my-auto mx-auto rounded-3xl object-cover"
-            src="/metaverse.jpg"
+            src="/imrzverse.jpg"
             width={250}
             height={350}
           />

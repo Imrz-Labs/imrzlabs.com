@@ -10,7 +10,6 @@ const ProductCard = () => {
         </div>
 
         <div className="imrz-card-wrapper sm:ml-9">
-          <a target="_blank" href="https://www.imrzcommerce.com">
             <div className="imrz-card h-[350px] lg:h-auto lg:pb-10">
               <img
                 src="/imrzcommerce-banner.png"
@@ -24,8 +23,6 @@ const ProductCard = () => {
                 </p>
               </div>
             </div>
-          </a>
-          <a target="_blank" href="https://www.fastvault.io">
             <div className="imrz-card h-[350px] lg:h-auto lg:pb-10">
               <img
                 src="/fastvault-banner.png"
@@ -39,8 +36,6 @@ const ProductCard = () => {
                 </p>
               </div>
             </div>
-          </a>
-          <a target="_blank" href="https://www.evenft.co.uk">
             <div className="imrz-card h-[350px] lg:h-auto lg:pb-10">
               <img src="/evenft-banner.png" className="imrz-card-img rounded" />
               <div className="items-center text-center">
@@ -51,8 +46,6 @@ const ProductCard = () => {
                 </p>
               </div>
             </div>
-          </a>
-          <a target="_blank" href="https://www.workdril.com">
             <div className="imrz-card h-[350px] lg:h-auto lg:pb-10">
               <img
                 src="/workdril-banner.png"
@@ -66,10 +59,9 @@ const ProductCard = () => {
                 </p>
               </div>
             </div>
-          </a>
         </div>
         <div className="m-auto flex w-full items-center justify-center mt-[-80px] mb-20">
-            <a href="#contact">
+            <a target="_blank" href="https://discord.gg/XRu5XS2f">
               <button type="button" className="button-pink w-auto">
                 JOIN DISCORD FOR EARLY ACCESS
               </button>

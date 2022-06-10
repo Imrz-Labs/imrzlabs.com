@@ -1,57 +1,46 @@
-import React from 'react'
-import { useForm } from 'react-hook-form'
-import emailjs from 'emailjs-com'
-import { ToastContainer, toast } from 'react-toastify'
-import 'react-toastify/dist/ReactToastify.min.css'
+import React, { useState } from 'react'
 
 
 const FormArea = () => {
-  {/*********************************
-  const {
-    register,
-    handleSubmit,
-    reset,
-    formState: { errors }
-  } = useForm();
 
-  const toastifySuccess = () => {
-    toast('Inquiry sent!', {
-      position: 'bottom-right',
-      autoClose: 5000,
-      hideProgressBar: true,
-      closeOnClick: true,
-      pauseOnHover: true,  
-      draggable: false,
-      className: 'submit-feedback success',
-      toastId: 'notifyToast'
-    });
-  };
   
-  const onSubmit = async (data: { forename: string; surname: string; email: any; company: string; services: string; budget: any; message: string }) => {
-    const { forename, surname, email, company, services, budget, message } = data;
-    try {
-      const templateParams = {
-        forename,
-        surname,
-        email,
-        company,
-        services,
-        budget,
-        message
-      };   
-      
-     await emailjs.send(
-        process.env.REACT_APP_SERVICE_ID,
-        process.env.REACT_APP_TEMPLATE_ID,
-        templateParams,
-        process.env.REACT_APP_USER_ID
-      );
-      reset();
-    } catch (e) {
-      console.log(e);
-    }
-    
-  **/}
+  const [query, setQuery] = useState({
+    forename: '',
+    surname: '',
+    email: '',
+    company: '',
+    message: '',
+  })
+
+  // Update inputs value
+  const handleParam = () => (e: { target: { name: any; value: any } }) => {
+    const name = e.target.name
+    const value = e.target.value
+    setQuery((prevState) => ({
+      ...prevState,
+      [name]: value,
+    }))
+  }
+  // Form Submit function
+  const formSubmit = (e: { preventDefault: () => void }) => {
+    e.preventDefault()
+    const formData = new FormData()
+    Object.entries(query).forEach(([key, value]) => {
+      formData.append(key, value)
+    })
+    fetch('https://getform.io/f/fff5dcb9-386d-4296-8b90-143becb470a8', {
+      method: 'POST',
+      body: formData,
+    }).then(() =>
+      setQuery({
+        forename: '',
+        surname: '',
+        email: '',
+        company: '',
+        message: '',
+      })
+    )
+  }
 
   return (
     <>
@@ -62,22 +51,34 @@ const FormArea = () => {
 
         <form
           className="m-auto w-6/12 xl:w-8/12 lg:w-9/12 md:w-11/12"
-          method="POST"
-          target="_blank"
-          
+          onSubmit={formSubmit}
         >
           {/********************************Name Input********************************/}
           <div className="imrz-text-black grid grid-cols-2 gap-5">
             {/**First Name**/}
             <div className="mb-3 pt-0">
               <p className="text-white">First Name</p>
-              <input type="text" name="forename" className="form-input" required  />
+              <input
+                type="text"
+                name="forename"
+                className="form-input"
+                required
+                value={query.forename}
+                onChange={handleParam()}
+              />
             </div>
 
             {/**Last Name**/}
             <div className="mb-3 pt-0">
               <p className="text-white">Last Name</p>
-              <input type="text" name="surname" className="form-input" required />
+              <input
+                type="text"
+                name="surname"
+                className="form-input"
+                required
+                value={query.surname}
+                onChange={handleParam()}
+              />
             </div>
           </div>
 
@@ -87,13 +88,27 @@ const FormArea = () => {
             {/**Email**/}
             <div className="mb-3 pt-0">
               <p className="text-white">Email</p>
-              <input type="email" name="email" className="form-input" required />
+              <input
+                type="email"
+                name="email"
+                className="form-input"
+                required
+                value={query.email}
+                onChange={handleParam()}
+              />
             </div>
 
             {/**Company Name**/}
             <div className="mb-3 pt-0">
               <p className="text-white">Company Name</p>
-              <input type="text" name="company" className="form-input" required />
+              <input
+                type="text"
+                name="company"
+                className="form-input"
+                required
+                value={query.company}
+                onChange={handleParam()}
+              />
             </div>
           </div>
 
@@ -111,7 +126,7 @@ const FormArea = () => {
               </select>
             </div>**/}
 
-            {/**Budget**
+          {/**Budget**
             <div className="mb-3 pt-0">
               <p className="text-white">Budget</p>
               <select required name="budget" className="form-input">
@@ -128,11 +143,19 @@ const FormArea = () => {
 
           <div className="mb-3 pt-0">
             <p className="text-white">Description (Optional)</p>
-            <textarea name="message" className="form-input" />
+            <textarea
+              name="message"
+              className="form-input"
+              value={query.message}
+              onChange={handleParam()}
+            />
           </div>
 
           <div className="pt-0 pb-20">
-            <button type="submit" className="button-pink">
+            <button
+              type="submit"
+              className="button-pink"
+            >
               Submit
             </button>
           </div>

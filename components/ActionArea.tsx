@@ -25,11 +25,11 @@ const ActionArea = () => {
           <Link href="/products">
             <a>
               <Image
-                src="/products.svg"
+                src="/products.png"
                 alt="Imrz Labs Ventures"
                 width={450}
                 height={120}
-                className="mb-3 sm:mb-1"
+                className="mb-3 sm:mb-1 object-contain md:object-scale-down"
               />
             </a>
           </Link>

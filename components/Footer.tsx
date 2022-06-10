@@ -46,7 +46,6 @@ const Footer = () => {
             <li>
               <a href="https://discord.gg/XRu5XS2f">
                 <Image
-                  className="hover:bg-brand-gradient imrz-black rounded-lg"
                   src="/discord.svg"
                   alt="Imrz Labs"
                   width={40}
@@ -57,11 +56,10 @@ const Footer = () => {
             <li>
               <a href="https://www.twitter.com/imrzlabs">
                 <Image
-                  className="hover:bg-brand-gradient imrz-black rounded-lg"
                   src="/twitter.svg"
                   alt="Imrz Labs"
-                  width={40}
-                  height={40}
+                  width={20}
+                  height={20}
                 />
               </a>
             </li>
@@ -69,7 +67,6 @@ const Footer = () => {
               {' '}
               <a href="https://www.linkedin.com/company/imrzlabs">
                 <Image
-                  className="hover:bg-brand-gradient imrz-black rounded-lg"
                   src="/linkedin.svg"
                   alt="Imrz Labs"
                   width={40}
