@@ -108,15 +108,13 @@ const TopMenu = () => {
                 />
               </svg>
             </label>
-            <ul
-              className="dropdown-content m-auto menu rounded-box menu-compact mt-3 w-[97vw] bg-white p-2 shadow"
-            >
-              <li>
-                  <a href="/products" className="">Agency</a>
-              </li>
-              <li>
-                  <a href="/products" className="">Products</a>
-              </li>
+            <div className="dropdown-content menu rounded-box menu-compact m-auto mt-3 w-[97vw] bg-white p-2 py-5 shadow">
+              <Link href="/agency">
+                <a className="mb-5 w-full">Agency</a>
+              </Link>
+              <Link href="/products">
+                <a className="w-full">Products</a>
+              </Link>
               {/**
               <li>    
                 <Link href="/team">
@@ -124,7 +122,7 @@ const TopMenu = () => {
                 </Link
               </li>
              **/}
-            </ul>
+            </div>
           </div>
         </div>
 
@@ -161,12 +159,10 @@ const TopMenu = () => {
               </svg>
             </button>
           </a>
-            </div>
+        </div>
       </div>
     </>
   )
 }
-
-const menuRes = () => {}
 
 export default TopMenu
