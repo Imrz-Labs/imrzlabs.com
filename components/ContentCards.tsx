@@ -35,7 +35,7 @@ const ContentCards = () => {
         <div className="grid grid-cols-2 gap-20 md:grid-cols-1">
           <Image
             className="col-start-1 my-auto mx-auto rounded-3xl object-cover"
-            src="/nftii.jpg"
+            src="/nft.png"
             width={250}
             height={350}
           />
