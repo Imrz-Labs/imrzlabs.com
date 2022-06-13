@@ -51,7 +51,7 @@
     @apply m-auto mt-14 flex h-[65px] w-[220px] items-center justify-center rounded-xl hover:text-white imrz-pink hover:bg-brand-gradient px-5 text-xs font-bold uppercase text-white shadow transition ease-in-out hover:duration-150;
   }
   .form-input {
-    @apply rounded-lg border-0 w-full bg-white py-4 shadow outline-none focus:outline-none;
+    @apply rounded-lg border-0 w-full bg-white py-4 shadow outline-none focus:outline-none pl-5;
   }
   .imrz-card-wrapper {
     @apply m-auto grid w-10/12 grid-cols-4 items-center 4xl:pb-20 justify-center pb-40 2xl:w-11/12 2xl:gap-3 4xl:gap-10 4xl:flex xl:flex lg:grid lg:grid-cols-2 sm:flex sm:flex-wrap;

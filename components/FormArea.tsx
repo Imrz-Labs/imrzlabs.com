@@ -1,9 +1,17 @@
 import React, { useState } from 'react'
+import { useRouter } from "next/router";
 
 
 const FormArea = () => {
 
-  
+  const [inputValue, setInputValue] = useState("");
+  const router = useRouter();
+
+  const onChange = (e: { target: { value: React.SetStateAction<string>; }; }) => {
+    setInputValue(e.target.value);
+  }
+
+
   const [query, setQuery] = useState({
     forename: '',
     surname: '',
@@ -23,6 +31,7 @@ const FormArea = () => {
   }
   // Form Submit function
   const formSubmit = (e: { preventDefault: () => void }) => {
+    router.push(`https://getform.io/thank-you${inputValue}`)
     e.preventDefault()
     const formData = new FormData()
     Object.entries(query).forEach(([key, value]) => {

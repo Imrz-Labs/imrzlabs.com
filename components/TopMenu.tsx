@@ -112,14 +112,10 @@ const TopMenu = () => {
               className="dropdown-content m-auto menu rounded-box menu-compact mt-3 w-[97vw] bg-white p-2 shadow"
             >
               <li>
-                <Link href="/agency">
-                  <a className="">Agency</a>
-                </Link>
+                  <a href="/products" className="">Agency</a>
               </li>
               <li>
-                <Link href="/products">
-                  <a className="">Products</a>
-                </Link>
+                  <a href="/products" className="">Products</a>
               </li>
               {/**
               <li>    
@@ -132,7 +128,7 @@ const TopMenu = () => {
           </div>
         </div>
 
-        {/********************************mobiile navbar ********************************/}
+        {/********************************mobile navbar ********************************/}
         <div className="navbar-center">
           {/*** Logo ***/}
           <Link href="/">
