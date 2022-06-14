@@ -1,8 +1,12 @@
-import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
+import Router from 'next/router';
+
+
 
 const TopMenu = () => {
+
+
   return (
     <>
       <div className="fixed z-50 flex h-[85px] w-full items-center bg-white backdrop-blur-md md:m-0 md:hidden md:flex-col md:items-center ">
@@ -83,6 +87,8 @@ const TopMenu = () => {
         </div>
       </div>
 
+      {/********************************mobile navbar ********************************/}
+
       <div className="navbar fixed z-50 hidden bg-white md:flex">
         <div className="navbar-start">
           <div className="dropdown">
@@ -110,10 +116,14 @@ const TopMenu = () => {
             </label>
             <div className="dropdown-content menu rounded-box menu-compact m-auto mt-3 w-[97vw] bg-white p-2 py-5 shadow">
               <Link href="/agency">
-                <button className="mb-5 w-full">Agency</button>
+                <button onClick={() => Router.push('/agency')} className="mb-5 w-full">
+                  Agency
+                </button>
               </Link>
               <Link href="/products">
-                <button className="w-full">Products</button>
+                <button onClick={() => Router.push('/products')} className="w-full">
+                  Products
+                </button>
               </Link>
               {/**
               <li>    
@@ -126,7 +136,6 @@ const TopMenu = () => {
           </div>
         </div>
 
-        {/********************************mobile navbar ********************************/}
         <div className="navbar-center">
           {/*** Logo ***/}
           <Link href="/">
