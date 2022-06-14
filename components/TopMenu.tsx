@@ -86,7 +86,7 @@ const TopMenu = () => {
       <div className="navbar fixed z-50 hidden bg-white md:flex">
         <div className="navbar-start">
           <div className="dropdown">
-            <label tabIndex="0" className="btn btn-ghost btn-circle">
+            <label tabIndex="1" className="btn btn-ghost btn-circle">
               <svg
                 fill="none"
                 height="44"
@@ -110,10 +110,10 @@ const TopMenu = () => {
             </label>
             <div className="dropdown-content menu rounded-box menu-compact m-auto mt-3 w-[97vw] bg-white p-2 py-5 shadow">
               <Link href="/agency">
-                <a className="mb-5 w-full">Agency</a>
+                <button className="mb-5 w-full">Agency</button>
               </Link>
               <Link href="/products">
-                <a className="w-full">Products</a>
+                <button className="w-full">Products</button>
               </Link>
               {/**
               <li>    
