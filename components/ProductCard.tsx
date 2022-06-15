@@ -61,7 +61,7 @@ const ProductCard = () => {
             </div>
         </div>
         <div className="m-auto flex w-full items-center justify-center mt-[-80px] mb-20">
-            <a target="_blank" href="https://discord.gg/XRu5XS2f">
+            <a target="_blank" href="https://discord.gg/5eruR3BAH7">
               <button type="button" className="button-pink w-auto">
                 JOIN DISCORD FOR EARLY ACCESS
               </button>

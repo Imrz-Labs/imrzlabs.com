@@ -5,7 +5,7 @@ const ProductHero = () => {
   return (
     <>
       <div className="h-[90vh] sm:h-[80vh] bg-brand-gradient w-screen">
-        <div className="absolute top-[20%] w-full text-white">
+        <div className="pt-20 w-full text-white">
           <div className="m-auto mb-14 w-9/12">
             <img
               className="flex h-[115px] w-auto lg:hidden"

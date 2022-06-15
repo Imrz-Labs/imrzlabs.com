@@ -4,7 +4,7 @@ const AgencyHeroSection = () => {
   return (
     <>
       <div className="h-[90vh] sm:h-[80vh] bg-brand-gradient w-screen">
-        <div className="absolute top-[25%] w-full text-white">
+        <div className="pt-20 w-full text-white">
           <div className="m-auto mb-14 w-9/12">
             <img
               className="flex h-auto w-auto lg:hidden"

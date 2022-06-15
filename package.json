@@ -16,6 +16,7 @@
     "native-promise-only": "^0.8.1",
     "next": "^12.1.6",
     "react": "^17.0.2",
+    "react-device-detect": "^2.2.2",
     "react-dom": "^17.0.2",
     "react-hook-form": "^7.30.0",
     "react-toast-notifications": "^2.5.1",
