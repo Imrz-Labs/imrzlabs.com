@@ -4,8 +4,8 @@ const AgencyHeroSection = () => {
   return (
     <>
       <div className="h-[90vh] sm:h-[80vh] bg-brand-gradient w-screen">
-        <div className="pt-20 w-full text-white">
-          <div className="m-auto mb-14 w-9/12">
+        <div className="pt-[110px] w-full text-white">
+          <div className="m-auto w-9/12">
             <img
               className="flex h-auto w-auto lg:hidden"
               src="/imrzagency.svg"
@@ -18,7 +18,7 @@ const AgencyHeroSection = () => {
             />
           </div>
 
-          <h1 className="imrz-h1-hero">
+          <h1 className="imrz-h1-hero mt-8">
             Use our experience, insight and agility to elevate your business and
             deliver future focused solutions.
           </h1>

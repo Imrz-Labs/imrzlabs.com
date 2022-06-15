@@ -1,16 +1,9 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import Router from 'next/router'
-import { IOSView } from 'react-device-detect'
 
 const TopMenu = () => {
-  const showiosnav = {
-    background: 'white',
-    height: '64px',
-    width: '100%',
-    position: 'fixed',
-    zIndex: 100,
-  }
+
 
   return (
     <>
@@ -185,7 +178,7 @@ const TopMenu = () => {
 
       {/********************************mobile navbar ios view********************************/}
 
-      <div className="bg-white z-50 h-[64px] fixed w-full">
+      <div className="bg-white z-50 h-[64px] fixed w-full hidden md:block">
         <input id="my-drawer-4" type="checkbox" className=" drawer-toggle " />
         <div className="drawer-content">
           {/**  Drawer content here **/}
@@ -232,7 +225,7 @@ const TopMenu = () => {
         </div>
 
         {/*** Logo ***/}
-        <div className="flex absolute justify-center item-center w-full mt-[-46%]">
+        <div className="flex justify-center mt-[-46%] flex-wrap items-center w-full m-auto h-[0px] top-0 ">
           <Link href="/">
             <a className="">
               <img src="/logo.svg" className="max-h-6" alt="Imrz Labs" />
@@ -241,7 +234,7 @@ const TopMenu = () => {
         </div>
 
         {/***Nav CTA ***/}
-        <div className="flex justify-end mt-[-49%] mr-2">
+        <div className="flex justify-end items-center my-3 h-[0px] mr-[5px] top-0">
           <a href="#contact">
             <button
               type="button"

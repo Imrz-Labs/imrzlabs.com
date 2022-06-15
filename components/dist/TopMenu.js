@@ -3,13 +3,6 @@ exports.__esModule = true;
 var link_1 = require("next/link");
 var image_1 = require("next/image");
 var TopMenu = function () {
-    var showiosnav = {
-        background: 'white',
-        height: '64px',
-        width: '100%',
-        position: 'fixed',
-        zIndex: 100
-    };
     return (React.createElement(React.Fragment, null,
         React.createElement("div", { className: "fixed z-50 flex h-[85px] w-full items-center bg-white backdrop-blur-md md:m-0 md:hidden md:flex-col md:items-center " },
             React.createElement(link_1["default"], { href: "/" },
@@ -23,7 +16,7 @@ var TopMenu = function () {
                         React.createElement("a", { className: "link-style-default hover:text-pink-500" }, "Products"))),
                 React.createElement("a", { href: "#contact" },
                     React.createElement("button", { type: "button", className: "hover:bg-brand-gradient imrz-blue h-[50px] w-[150px] rounded-md px-5 text-xs font-semibold uppercase text-white shadow lg:h-[45px] lg:w-[100px] lg:text-tiny md:m-auto md:mb-5 md:ml-[80%] sm:ml-[76%]" }, "Contact")))),
-        React.createElement("div", { className: "bg-white z-50 h-[64px] fixed w-full" },
+        React.createElement("div", { className: "bg-white z-50 h-[64px] fixed w-full hidden md:block" },
             React.createElement("input", { id: "my-drawer-4", type: "checkbox", className: " drawer-toggle " }),
             React.createElement("div", { className: "drawer-content" },
                 React.createElement("label", { htmlFor: "my-drawer-4", tabIndex: "2", className: "btn btn-ghost btn-circle z-50 mt-2" },
@@ -38,11 +31,11 @@ var TopMenu = function () {
                         React.createElement("a", { href: "/agency" }, "Agency")),
                     React.createElement("li", null,
                         React.createElement("a", { href: "/products" }, "Products")))),
-            React.createElement("div", { className: "flex absolute justify-center item-center w-full mt-[-46%]" },
+            React.createElement("div", { className: "flex justify-center mt-[-46%] flex-wrap items-center w-full m-auto h-[0px] top-0 " },
                 React.createElement(link_1["default"], { href: "/" },
                     React.createElement("a", { className: "" },
                         React.createElement("img", { src: "/logo.svg", className: "max-h-6", alt: "Imrz Labs" })))),
-            React.createElement("div", { className: "flex justify-end mt-[-49%] mr-2" },
+            React.createElement("div", { className: "flex justify-end items-center my-3 h-[0px] mr-[5px] top-0" },
                 React.createElement("a", { href: "#contact" },
                     React.createElement("button", { type: "button", className: "hover:bg-brand-gradient imrz-blue h-[40px] w-[120px] rounded-md object-scale-down text-tiny font-semibold uppercase text-white shadow transition ease-in-out hover:duration-150 sm:hidden" }, "Contact")),
                 React.createElement("a", { href: "#contact" },
