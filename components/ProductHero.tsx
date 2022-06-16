@@ -5,10 +5,10 @@ const ProductHero = () => {
   return (
     <>
       <div className="h-[90vh] sm:h-[80vh] bg-brand-gradient w-screen">
-        <div className="pt-[110px] w-full text-white">
+        <div className="md:pt-[110px] 4xl:pt-[200px] w-full text-white">
           <div className="m-auto w-9/12">
             <img
-              className="flex h-[115px] w-auto lg:hidden"
+              className="flex h-[115px] pb-10 w-auto lg:hidden"
               src="/imrzproducts.svg"
               alt="Imrz Products"
             />

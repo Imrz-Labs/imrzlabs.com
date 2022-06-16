@@ -2,7 +2,7 @@
 exports.__esModule = true;
 var head_1 = require("next/head");
 var react_1 = require("react");
-var components_1 = require("../components");
+var components_1 = require("../../components");
 var privacy = function () {
     return (react_1["default"].createElement(react_1["default"].Fragment, null,
         react_1["default"].createElement(head_1["default"], null,
