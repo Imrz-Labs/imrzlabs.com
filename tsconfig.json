@@ -15,6 +15,6 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/FormArea.jsx", "components/FormArea.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/FormArea.jsx", "components/FormArea.js", "pages/dist/privacy.js"],
   "exclude": ["node_modules"]
 }
