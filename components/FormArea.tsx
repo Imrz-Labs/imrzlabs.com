@@ -31,7 +31,7 @@ const FormArea = () => {
   }
   // Form Submit function
   const formSubmit = (e: { preventDefault: () => void }) => {
-    router.push(`https://getform.io/thank-you${inputValue}`)
+    router.push(`/thanks${inputValue}`)
     e.preventDefault()
     const formData = new FormData()
     Object.entries(query).forEach(([key, value]) => {

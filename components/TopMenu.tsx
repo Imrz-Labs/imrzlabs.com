@@ -3,8 +3,6 @@ import Image from 'next/image'
 import Router from 'next/router'
 
 const TopMenu = () => {
-
-
   return (
     <>
       <div className="fixed z-50 flex h-[85px] w-full items-center bg-white backdrop-blur-md md:m-0 md:hidden md:flex-col md:items-center ">
@@ -175,88 +173,93 @@ const TopMenu = () => {
       </div>
     ********************************/}
 
-
       {/********************************mobile navbar ios view********************************/}
-
-      <div className="bg-white z-50 h-[64px] fixed w-full hidden md:block">
-        <input id="my-drawer-4" type="checkbox" className=" drawer-toggle " />
-        <div className="drawer-content">
-          {/**  Drawer content here **/}
-          <label
-            htmlFor="my-drawer-4"
-            tabIndex="2"
-            className="btn btn-ghost btn-circle z-50 mt-2"
-          >
-            <svg
-              fill="none"
-              height="44"
-              viewBox="0 0 24 24"
-              width="44"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M4 6C4 5.44772 4.44772 5 5 5H19C19.5523 5 20 5.44772 20 6C20 6.55228 19.5523 7 19 7H5C4.44772 7 4 6.55228 4 6Z"
-                fill="currentColor"
-              />
-              <path
-                d="M4 18C4 17.4477 4.44772 17 5 17H19C19.5523 17 20 17.4477 20 18C20 18.5523 19.5523 19 19 19H5C4.44772 19 4 18.5523 4 18Z"
-                fill="currentColor"
-              />
-              <path
-                d="M5 11C4.44772 11 4 11.4477 4 12C4 12.5523 4.44772 13 5 13H13C13.5523 13 14 12.5523 14 12C14 11.4477 13.5523 11 13 11H5Z"
-                fill="currentColor"
-              />
-            </svg>
-          </label>
-        </div>
-        
-
-        <div className="drawer-side  ">
-          <label htmlFor="my-drawer-4" className="drawer-overlay"></label>
-          <ul className="imrz-text menu w-80 overflow-y-auto bg-white p-4">
-            {/**  Sidebar content here **/}
-            <li>
-              <a href="/agency">Agency</a>
-            </li>
-            <li>
-              <a href="/products">Products</a>
-            </li>
-          </ul>
-        </div>
-
-        {/*** Logo ***/}
-        <div className="flex justify-center mt-[-46%] flex-wrap items-center w-full m-auto h-[0px] top-0 ">
-          <Link href="/">
-            <a className="">
-              <img src="/logo.svg" className="max-h-6" alt="Imrz Labs" />
-            </a>
-          </Link>
-        </div>
-
-        {/***Nav CTA ***/}
-        <div className="flex justify-end items-center my-3 h-[0px] mr-[5px] top-0">
-          <a href="#contact">
-            <button
-              type="button"
-              className="hover:bg-brand-gradient imrz-blue h-[40px] w-[120px] rounded-md object-scale-down text-tiny font-semibold uppercase text-white shadow transition ease-in-out hover:duration-150 sm:hidden"
-            >
-              Contact
-            </button>
-          </a>
-
-          <a href="#contact">
-            <button className="imrz-blue btn btn-ghost rounded-lg md:hidden sm:flex">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-7 w-7"
-                viewBox="0 0 20 20"
-                fill="#ffffff"
+      <div className="fixed z-50 hidden h-[64px] w-full bg-white md:flex ">
+        <div className="flex flex-row">
+          <div className="navbar-start">
+            <input
+              id="my-drawer-4"
+              type="checkbox"
+              className=" drawer-toggle"
+            />
+            <div className="drawer-content shadow-sm w-auto pr-2 overflow-hidden">
+              {/**  Drawer content here **/}
+              <label
+                htmlFor="my-drawer-4"
+                tabIndex="2"
+                className="btn btn-ghost btn-circle z-50 mt-2 overflow-hidden"
               >
-                <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
-                <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
-              </svg>
-            </button>
-          </a>
+                <svg
+                  fill="none"
+                  height="44"
+                  viewBox="0 0 24 24"
+                  width="44"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M4 6C4 5.44772 4.44772 5 5 5H19C19.5523 5 20 5.44772 20 6C20 6.55228 19.5523 7 19 7H5C4.44772 7 4 6.55228 4 6Z"
+                    fill="currentColor"
+                  />
+                  <path
+                    d="M4 18C4 17.4477 4.44772 17 5 17H19C19.5523 17 20 17.4477 20 18C20 18.5523 19.5523 19 19 19H5C4.44772 19 4 18.5523 4 18Z"
+                    fill="currentColor"
+                  />
+                  <path
+                    d="M5 11C4.44772 11 4 11.4477 4 12C4 12.5523 4.44772 13 5 13H13C13.5523 13 14 12.5523 14 12C14 11.4477 13.5523 11 13 11H5Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </label>
+            </div>
+
+            <div className="drawer-side ">
+              <label htmlFor="my-drawer-4" className="drawer-overlay"></label>
+              <ul className="imrz-text menu w-full absolute bg-white p-4 overflow-hidden">
+                {/**  Sidebar content here **/}
+                <li>
+                  <a href="/agency">Agency</a>
+                </li>
+                <li>
+                  <a href="/products">Products</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          {/*** Logo ***/}
+          <div className=" h-auto m-auto mr-10">
+            <Link href="/">
+              <a className="">
+                <img src="/logo.svg" className="w-full object-fill" alt="Imrz Labs" />
+              </a>
+            </Link>
+          </div>
+
+          {/***Nav CTA ***/}
+          <div className=" mr-[5px] flex items-center justify-end justify-items-stretch">
+            <a href="#contact">
+              <button
+                type="button"
+                className="justify-self-end hover:bg-brand-gradient imrz-blue h-[40px] w-[120px] rounded-md object-scale-down text-tiny font-semibold uppercase text-white shadow transition ease-in-out hover:duration-150 sm:hidden"
+              >
+                Contact
+              </button>
+            </a>
+
+            <a href="#contact">
+              <button className="imrz-blue btn btn-ghost rounded-lg md:hidden sm:flex">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-7 w-7"
+                  viewBox="0 0 20 20"
+                  fill="#ffffff"
+                >
+                  <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+                  <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+                </svg>
+              </button>
+            </a>
+          </div>
         </div>
       </div>
     </>
