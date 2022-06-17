@@ -1,18 +1,18 @@
 "use strict";
 exports.__esModule = true;
+var document_1 = require("next/document");
 var react_1 = require("react");
-var head_1 = require("next/head");
-var components_1 = require("../components");
+var components_1 = require("../../components");
 var careers = function () {
     return (react_1["default"].createElement(react_1["default"].Fragment, null,
-        react_1["default"].createElement(head_1["default"], null,
+        react_1["default"].createElement(document_1.Head, null,
             react_1["default"].createElement("title", null, "Jobs at Imrz Labs"),
             react_1["default"].createElement("meta", { name: "description", content: "Imrz Labs is hiring!!! Lead the future of emerging technologies with us. Join us today." }),
             react_1["default"].createElement("meta", { name: "keywords", content: "Immersive company, immersive agency, imrz, imrz labs, imrz agency, imrz ventures, 3D, metaverse, oasis, ar, vr, AR, mr, tokenisation, mining, NFTs, DAOs, Defi, AI, Airdrops, Decentralization, Smart Contracts, Blockchain, Crypto, Web 3, Computer Vision, DApps, Phygital, Digital Twin, coins, Staking" }),
             react_1["default"].createElement("link", { rel: "icon", href: "/imrzicon.gif" })),
         react_1["default"].createElement(components_1.TopMenu, null),
         react_1["default"].createElement("div", { className: "bg-brand-gradient h-[90vh] w-screen sm:h-[80vh]" },
-            react_1["default"].createElement("div", { className: "w-full text-white 4xl:pt-[160px] md:pt-[135px]" },
+            react_1["default"].createElement("div", { className: "w-full text-white 4xl:pt-[160px] 3xl:pt-[200px] md:pt-[135px]" },
                 react_1["default"].createElement("h1", { className: "hero-h1" }, "Lead The Future of Emerging Technologies With Us"),
                 react_1["default"].createElement("p", { className: "hero-p" }, "This is for you. The risk-takers, the doers, the thinkers, the believers and the creatives. Those who dare to make things happen and are driven by change."),
                 react_1["default"].createElement("div", { className: "imrz-b-hero" },
@@ -138,7 +138,7 @@ var careers = function () {
                             react_1["default"].createElement("h3", { className: "pt-4 font-bold" }, "Core Responsibilities"),
                             react_1["default"].createElement("p", null, "You\u2019ll work in a highly collaborative environment with a small team, You\u2019ll work cross-functionally on product evolution from ideation, design, architecting systems, and process."),
                             react_1["default"].createElement("ul", { className: "px-10" },
-                                react_1["default"].createElement("li", { className: "list-disc py-2" }, "Proficiency in developing front-end software, with deep experience in one or more relevant front-end frameworks (ie, React), TypeScript, UI Test Automation frameworks, and serverless systems i.e AWS Amplify / Vercel / Netlify and static or server site hosting."),
+                                react_1["default"].createElement("li", { className: "list-disc py-2" }, "Proficiency in developing front-end software, with deep experience in one or more relevant front-end frameworks (ie, NextJS), TypeScript, UI Test Automation frameworks, and serverless systems i.e AWS Amplify / Vercel / Netlify and static or server site hosting."),
                                 react_1["default"].createElement("li", { className: "list-disc py-2" }, "Experience building modern decentralized applications (DApps) with a strong track record in developing rich cloud based apps with HTML, CSS (TailwindCSS or SASS), JS, Node or (Deno), Rust, and working closely with design specs to achieve amazing UI/UX."),
                                 react_1["default"].createElement("li", { className: "list-disc py-2" }, "Extensive experience working with any of the following cross-platform tools i.e React Native, Ionic or Flutter for mobile or Tauri / Electron for desktop. Comfortable navigating between RUST and JavaScript.")),
                             react_1["default"].createElement("h3", { className: "pt-4 font-bold" }, "Plus Qualities"),
@@ -154,6 +154,7 @@ var careers = function () {
                                 react_1["default"].createElement("li", { className: "list-disc py-2" }, "You have a can-do attitude and can roll with the constant changes of a growing Startup.")),
                             react_1["default"].createElement("a", { href: "#" },
                                 react_1["default"].createElement("button", { type: "button", className: "bg-brand-gradient mt-5 rounded-md p-5 text-white shadow-md" }, "Apply Now"))))))),
+        react_1["default"].createElement(components_1.FormArea, null),
         react_1["default"].createElement(components_1.Footer, null)));
 };
 exports["default"] = careers;

@@ -1,6 +1,6 @@
+import { Head } from 'next/document'
 import React from 'react'
-import Head from 'next/head'
-import { TopMenu, Footer } from '../components'
+import { Footer, TopMenu, FormArea } from '../components'
 
 const careers = () => {
   return (
@@ -23,7 +23,7 @@ const careers = () => {
       {/***Hero  ***/}
 
       <div className="bg-brand-gradient h-[90vh] w-screen sm:h-[80vh]">
-        <div className="w-full text-white 4xl:pt-[160px] md:pt-[135px]">
+        <div className="w-full text-white 4xl:pt-[160px] 3xl:pt-[200px] md:pt-[135px]">
           <h1 className="hero-h1">
             Lead The Future of Emerging Technologies With Us
           </h1>
@@ -449,7 +449,7 @@ const careers = () => {
                   <li className="list-disc py-2">
                     Proficiency in developing front-end software, with deep
                     experience in one or more relevant front-end frameworks (ie,
-                    React), TypeScript, UI Test Automation frameworks, and
+                    NextJS), TypeScript, UI Test Automation frameworks, and
                     serverless systems i.e AWS Amplify / Vercel / Netlify and
                     static or server site hosting.
                   </li>
@@ -516,7 +516,10 @@ const careers = () => {
             </label>
           </label>
         </div>
+
+        
       </section>
+      <FormArea />
       <Footer />
     </>
   )

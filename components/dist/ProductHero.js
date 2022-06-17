@@ -4,7 +4,7 @@ var react_1 = require("react");
 var ProductHero = function () {
     return (react_1["default"].createElement(react_1["default"].Fragment, null,
         react_1["default"].createElement("div", { className: "h-[90vh] sm:h-[80vh] bg-brand-gradient w-screen" },
-            react_1["default"].createElement("div", { className: "md:pt-[110px] 4xl:pt-[150px] w-full text-white" },
+            react_1["default"].createElement("div", { className: "md:pt-[110px] 4xl:pt-[150px] 3xl:pt-[200px] w-full text-white" },
                 react_1["default"].createElement("div", { className: "m-auto w-9/12" },
                     react_1["default"].createElement("img", { className: "h-[115px] pb-10 w-auto hidden", src: "/imrzproducts.svg", alt: "Imrz Products" }),
                     react_1["default"].createElement("img", { className: "m-auto flex 4xl:mb-8 md:m-0 h-[125px] md:h-auto", src: "/imrzproducts-mid.png", alt: "Imrz Products" })),

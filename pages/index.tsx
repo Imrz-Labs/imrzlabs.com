@@ -1,8 +1,6 @@
-import React from 'react'
 import Head from 'next/head'
-import { sanity, urlFor } from '../lib/sanity'
-import {ActionArea, Footer, FormArea, HeroSection, Services, TopMenu} from '../components'
-import ProjectTypes from '../components/ProjectTypes'
+import React from 'react'
+import {ActionArea, Footer, FormArea, HeroSection, Services, TopMenu, ProjectTypes} from '../components'
 
 const index = () => {
   return (

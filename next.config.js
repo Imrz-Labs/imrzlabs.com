@@ -1,5 +1,14 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
+  
+  reactStrictMode: false,
+  webpack5: true,
+  webpack: (config) => {
+      config.resolve.fallback = { fs: false };
+      return config;
+    },
+
+  future: { webpack5: true },
 
   resolve: {
     extensions: ['.js', '.jsx', '.ts', '.tsx'],

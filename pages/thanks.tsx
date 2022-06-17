@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { useRouter } from 'next/router'
 import React, { useEffect } from 'react'
-import { TopMenu, Footer } from '../components'
+import { Footer, TopMenu } from '../components'
 
 const thanks = () => {
     
