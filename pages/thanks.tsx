@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { useRouter } from 'next/router'
 import React, { useEffect } from 'react'
+import { TopMenu, Footer } from '../components'
 
 const thanks = () => {
     
@@ -27,12 +28,15 @@ const thanks = () => {
         />
         <link rel="icon" href="/imrzicon.gif" />
       </Head>
-      <div className="m-auto bg-white flex h-screen w-full flex-col items-center justify-center gap-y-5 overflow-hidden pb-48 text-center">
+      <div><TopMenu /></div>
+      <div className="m-auto bg-white flex h-screen w-full flex-col items-center justify-center gap-y-5 overflow-hidden pb-[-250px] text-center">
         <Image src="/Success.png" width={250} height={250}/>
         <div className="text-lg">Thank You!</div>
         <div className="text-base">The form was submitted successfully.</div>
         <div>Redirecting in 3...</div>
       </div>
+      <div><Footer /></div>
+
     </>
   )
 }

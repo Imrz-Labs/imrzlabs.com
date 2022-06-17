@@ -4,35 +4,40 @@ import Image from 'next/image'
 
 const Footer = () => {
   return (
-    <section className="imrz-black pt-4 ">
-      <div className="imrz-black m-auto flex h-auto w-10/12 items-center justify-around md:flex-col md:pt-10 ">
+
+    <section className="imrz-black pt-8 ">
+      <div className="pl-48 lg:pl-0 imrz-black m-auto flex h-auto w-full items-center justify-around lg:flex-col lg:pt-10 ">
         {/*** Logo row***/}
+        <div className="">
         <Link href="/">
           <a className="">
             <Image
-              className="" 
+              className="h-auto object-cover" 
               src="/imrzlight.svg"
               alt="Imrz Labs"
-              width={300}
-              height={30}
+              width={155}
+              height={25}
             />
           </a>
         </Link>
+        </div>
         {/*** Links row***/}
-        <div className="m-auto md:my-10 4xl:mt-10">
-          <ul className="flex w-6/12 items-center justify-center space-x-10 text-center font-semibold text-white md:w-full ">
-            {/**
+        <div className="m-auto lg:my-10">
+          <ul className="flex items-center justify-center space-x-10 text-center font-semibold text-white md:w-full ">
             <li>
-              <a href="https://www.imrz.blog" className="link-style-default text-tiny text-white">
+              <a target="_blank" href="https://www.imrz.blog" className="link-style-default text-tiny text-white">
                 Blog
               </a>
             </li>
             
             <li>
-              <a href="#" className="link-style-default text-tiny text-white">
-                Careers
+            <Link href="/careers">
+              <a className="link-style-default text-tiny text-white indicator">
+              <span className="indicator-item font-normal text-tiny badge h-4 bg-brand-gradient text-white">hiring</span> 
+              <div className="grid h-8 place-items-center">Careers</div>
               </a>
-            </li>**/}
+              </Link>
+            </li>
             <li>
               <Link href="/privacy">
               <a className="link-style-default m-auto text-tiny text-white">
@@ -44,7 +49,7 @@ const Footer = () => {
         </div>
         {/*** Social row ***/}
 
-        <div>
+        <div className="pr-48 lg:pr-0 ">
           <ul className="flex items-center gap-5">
             <li>
               <a href="https://discord.gg/5eruR3BAH7">
@@ -80,8 +85,8 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <div className="imrz-black w-9/12 m-auto py-10 text-center text-[15px] text-white lg:pt-0 md:mt-20 md:mb-2">
-        © Copyright 2022. IMRZ Labs Limited. All rights reserved.
+      <div className="imrz-black w-full flex justify-center items-center m-auto py-10 text-center text-[15px] text-white lg:pt-0 lg:mt-20 lg:mb-2">
+      Copyright © 2022 IMRZ Labs
       </div>
     </section>
   )

@@ -1,0 +1,42 @@
+"use strict";
+exports.__esModule = true;
+var react_1 = require("react");
+var ProjectTypes = function () {
+    return (react_1["default"].createElement("div", { className: "mb-[-230px] md:pb-40 bg-white pt-3" },
+        react_1["default"].createElement("div", { className: "my-10 mb-20" },
+            react_1["default"].createElement("h3", { className: "imrz-heading-3" }, "TYPE OF PROJECTS"),
+            react_1["default"].createElement("h2", { className: "imrz-heading-2" }, "We're focused on delivering digital solutions for companies in the following areas")),
+        react_1["default"].createElement("div", { className: "m-auto grid w-10/12 md:mb-auto mb-[-100px] grid-cols-3 xl:w-11/12 md:grid-cols-1 md:gap-12" },
+            react_1["default"].createElement("div", { className: "agency-services" },
+                react_1["default"].createElement("img", { src: "/dapp.svg", className: "agency-icons" }),
+                react_1["default"].createElement("div", { className: "items-center text-center" },
+                    react_1["default"].createElement("h3", { className: "imrz-card-heading" }, "DApps"),
+                    react_1["default"].createElement("p", { className: "imrz-card-paragraph 3xl:w-10/12" }, "Build decentralized applications that use blockchain over traditional databases."))),
+            react_1["default"].createElement("div", { className: "agency-services" },
+                react_1["default"].createElement("img", { src: "/nft-flat.svg", className: "agency-icons" }),
+                react_1["default"].createElement("div", { className: "items-center text-center" },
+                    react_1["default"].createElement("h3", { className: "imrz-card-heading" }, "NFTs"),
+                    react_1["default"].createElement("p", { className: "imrz-card-paragraph 3xl:w-10/12" }, "Integrate verifiable tokens into existing solutions and build NFT minting platforms."))),
+            react_1["default"].createElement("div", { className: "agency-services" },
+                react_1["default"].createElement("img", { src: "/xrm.svg", className: "agency-icons" }),
+                react_1["default"].createElement("div", { className: "items-center text-center" },
+                    react_1["default"].createElement("h3", { className: "imrz-card-heading" }, "XR/Metaverse"),
+                    react_1["default"].createElement("p", { className: "imrz-card-paragraph 3xl:w-10/12" }, "Build open virtual worlds and AR/VR experiences")))),
+        react_1["default"].createElement("div", { className: "m-auto grid w-10/12 md:mt-10 md:mb-[50px] grid-cols-3 xl:w-11/12 md:grid-cols-1 md:gap-12" },
+            react_1["default"].createElement("div", { className: "agency-services" },
+                react_1["default"].createElement("img", { src: "/token.svg", className: "agency-icons" }),
+                react_1["default"].createElement("div", { className: "items-center text-center" },
+                    react_1["default"].createElement("h3", { className: "imrz-card-heading" }, "Tokens"),
+                    react_1["default"].createElement("p", { className: "imrz-card-paragraph 3xl:w-10/12" }, "Launch token projects linked to utility within your organization."))),
+            react_1["default"].createElement("div", { className: "agency-services" },
+                react_1["default"].createElement("img", { src: "/defi.svg", className: "agency-icons" }),
+                react_1["default"].createElement("div", { className: "items-center text-center" },
+                    react_1["default"].createElement("h3", { className: "imrz-card-heading" }, "Defi"),
+                    react_1["default"].createElement("p", { className: "imrz-card-paragraph 3xl:w-10/12" }, "Engineering financial tools using smart contracts / blockchain technology."))),
+            react_1["default"].createElement("div", { className: "agency-services" },
+                react_1["default"].createElement("img", { src: "/3d.svg", className: "agency-icons" }),
+                react_1["default"].createElement("div", { className: "items-center text-center" },
+                    react_1["default"].createElement("h3", { className: "imrz-card-heading" }, "3D Asset Creation"),
+                    react_1["default"].createElement("p", { className: "imrz-card-paragraph 3xl:w-10/12" }, "Visualize and launch 3D ready assets to be used in your XR solutions"))))));
+};
+exports["default"] = ProjectTypes;

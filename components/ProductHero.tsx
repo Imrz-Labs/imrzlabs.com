@@ -5,15 +5,15 @@ const ProductHero = () => {
   return (
     <>
       <div className="h-[90vh] sm:h-[80vh] bg-brand-gradient w-screen">
-        <div className="md:pt-[110px] 4xl:pt-[200px] w-full text-white">
+        <div className="md:pt-[110px] 4xl:pt-[150px] w-full text-white">
           <div className="m-auto w-9/12">
             <img
-              className="flex h-[115px] pb-10 w-auto lg:hidden"
+              className="h-[115px] pb-10 w-auto hidden"
               src="/imrzproducts.svg"
               alt="Imrz Products"
             />
             <img
-              className="m-auto hidden lg:flex"
+              className="m-auto flex 4xl:mb-8 md:m-0 h-[125px] md:h-auto"
               src="/imrzproducts-mid.png"
               alt="Imrz Products"
             />

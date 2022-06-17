@@ -20,7 +20,7 @@ var TopMenu = function () {
             React.createElement("div", { className: "flex flex-row" },
                 React.createElement("div", { className: "navbar-start" },
                     React.createElement("input", { id: "my-drawer-4", type: "checkbox", className: " drawer-toggle" }),
-                    React.createElement("div", { className: "drawer-content shadow-sm w-auto pr-2 overflow-hidden" },
+                    React.createElement("div", { className: "drawer-content w-auto pr-2 overflow-hidden" },
                         React.createElement("label", { htmlFor: "my-drawer-4", tabIndex: "2", className: "btn btn-ghost btn-circle z-50 mt-2 overflow-hidden" },
                             React.createElement("svg", { fill: "none", height: "44", viewBox: "0 0 24 24", width: "44", xmlns: "http://www.w3.org/2000/svg" },
                                 React.createElement("path", { d: "M4 6C4 5.44772 4.44772 5 5 5H19C19.5523 5 20 5.44772 20 6C20 6.55228 19.5523 7 19 7H5C4.44772 7 4 6.55228 4 6Z", fill: "currentColor" }),

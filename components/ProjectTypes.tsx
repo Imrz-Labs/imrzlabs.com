@@ -39,12 +39,11 @@ const ProjectTypes = () => {
 
         {/*****Project Delivery*****/}
         <div className="agency-services">
-          <img src="/defi.svg" className="agency-icons" />
+          <img src="/xrm.svg" className="agency-icons" />
           <div className="items-center text-center">
-            <h3 className="imrz-card-heading">DeFi</h3>
+            <h3 className="imrz-card-heading">XR/Metaverse</h3>
             <p className="imrz-card-paragraph 3xl:w-10/12">
-              Engineering financial tools using smart contracts / blockchain
-              technology.
+              Build open virtual worlds and AR/VR experiences
             </p>
           </div>
         </div>
@@ -65,11 +64,12 @@ const ProjectTypes = () => {
 
         {/*****Workshops*****/}
         <div className="agency-services">
-          <img src="/xrm.svg" className="agency-icons" />
+          <img src="/defi.svg" className="agency-icons" />
           <div className="items-center text-center">
-            <h3 className="imrz-card-heading">XR/Metaverse</h3>
+            <h3 className="imrz-card-heading">Defi</h3>
             <p className="imrz-card-paragraph 3xl:w-10/12">
-              Build open virtual worlds and AR/VR experiences
+            Engineering financial tools using smart contracts / blockchain 
+              technology. 
             </p>
           </div>
         </div>

@@ -181,7 +181,7 @@ const TopMenu = () => {
               type="checkbox"
               className=" drawer-toggle"
             />
-            <div className="drawer-content shadow-sm w-auto pr-2 overflow-hidden">
+            <div className="drawer-content w-auto pr-2 overflow-hidden">
               {/**  Drawer content here **/}
               <label
                 htmlFor="my-drawer-4"
