@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
-  
+
+  distDir: 'build',
+
   reactStrictMode: false,
   webpack5: true,
   webpack: (config) => {

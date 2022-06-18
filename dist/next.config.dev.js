@@ -6,6 +6,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 /** @type {import('next').NextConfig} */
 module.exports = (_module$exports = {
+  distDir: 'build',
   reactStrictMode: false,
   webpack5: true,
   webpack: function webpack(config) {
